@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "AiyKlq8p/8T6ADy3jF5YA2UiOwMlT7eXjhLDbihWbto0mxBi/g3EkrPTzfKNC5UcT4X5ao8znXopRERlDGAK3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\simo\\Desktop\\iot-protocols amqp\\client\\NetCoreClient\\NetCoreClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simo\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\6.0.0\\microsoft.extensions.configuration.fileextensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\microsoft.extensions.configuration.json\\6.0.0\\microsoft.extensions.configuration.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\mqttnet\\4.0.0.167\\mqttnet.4.0.0.167.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\rabbitmq.client\\6.6.0\\rabbitmq.client.6.6.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\simo\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "NetCoreClient dipende da MQTTnet (>= 4.0.0) ma non è stato possibile trovare MQTTnet 4.0.0. È stata risolta una migliore corrispondenza approssimativa di MQTTnet 4.0.0.167.",
+      "libraryId": "MQTTnet",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "NetCoreClient dipende da RabbitMQ.Client (>= 6.5.2) ma non è stato possibile trovare RabbitMQ.Client 6.5.2. È stata risolta una migliore corrispondenza approssimativa di RabbitMQ.Client 6.6.0.",
+      "libraryId": "RabbitMQ.Client",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
